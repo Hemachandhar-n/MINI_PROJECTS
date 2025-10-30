@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor Page</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="editor.css">
+  </head>
+<body>
+
+<div class="container editor-container">
+  <h2 class="text-center fw-bold mb-4">Editor’s Panel</h2>
+
+  <!-- Nav Tabs -->
+  <ul class="nav nav-tabs" id="editorTabs" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="post-tab" data-bs-toggle="tab" data-bs-target="#post" type="button">Post Creator</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="card-tab" data-bs-toggle="tab" data-bs-target="#card" type="button">Card Creator</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="blog-tab" data-bs-toggle="tab" data-bs-target="#blog" type="button">Blog Maker</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="comment-tab" data-bs-toggle="tab" data-bs-target="#comment" type="button">Comment Editor</button>
+    </li>
+  </ul>
+
+  <!-- Tab Contents -->
+  <div class="tab-content">
+
+    <!-- Post Creator -->
+    <div class="tab-pane fade show active" id="post" role="tabpanel">
+      <h4 class="mt-3">Create a New Post</h4>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Post Title</label>
+          <input type="text" class="form-control" placeholder="Enter post title">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Post Description</label>
+          <textarea class="form-control" rows="4" placeholder="Write your post..."></textarea>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Upload Image</label>
+          <input type="file" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-primary">Publish Post</button>
+      </form>
+    </div>
+
+    <!-- Card Creator -->
+    <div class="tab-pane fade" id="card" role="tabpanel">
+      <h4 class="mt-3">Create Product Card</h4>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Product Name</label>
+          <input type="text" class="form-control" placeholder="Enter product name">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Category</label>
+          <select class="form-select">
+            <option>Mobiles</option>
+            <option>Laptops</option>
+            <option>Consoles</option>
+            <option>Accessories</option>
+            <option>Games</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Price</label>
+          <input type="number" class="form-control" placeholder="Enter price">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Upload Product Image</label>
+          <input type="file" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success">Create Card</button>
+      </form>
+    </div>
+
+    <!-- Blog Maker -->
+    <div class="tab-pane fade" id="blog" role="tabpanel">
+      <h4 class="mt-3">Write a Blog</h4>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Blog Title</label>
+          <input type="text" class="form-control" placeholder="Enter blog title">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Content</label>
+          <textarea class="form-control" rows="6" placeholder="Start writing your blog..."></textarea>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Tags</label>
+          <input type="text" class="form-control" placeholder="e.g. Gaming, Hardware, Review">
+        </div>
+        <button type="submit" class="btn btn-warning">Publish Blog</button>
+      </form>
+    </div>
+
+    <!-- Comment Editor -->
+    <div class="tab-pane fade" id="comment" role="tabpanel">
+      <h4 class="mt-3">Manage Comments</h4>
+      <form>
+        <div class="mb-3">
+          <label class="form-label">Write a Comment</label>
+          <textarea class="form-control" rows="3" placeholder="Type a comment..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-info">Add Comment</button>
+      </form>
+
+      <!-- Example of existing comments -->
+      <div class="mt-4">
+        <h6>Recent Comments</h6>
+        <div class="card p-3 mb-2">
+          <p><strong>John:</strong> This is awesome! 🔥</p>
+        </div>
+        <div class="card p-3 mb-2">
+          <p><strong>Alice:</strong> Can’t wait to try this product.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

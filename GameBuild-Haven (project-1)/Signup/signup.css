@@ -1,0 +1,81 @@
+    body {
+      background-image: url(https://i.pinimg.com/1200x/90/c4/f8/90c4f8ba61baf895e0550c0cf2e23a38.jpg);
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .signup-container {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      overflow: hidden;
+      max-width: 950px;
+      width: 100%;
+    }
+
+    .signup-form {
+      padding: 40px;
+    }
+
+    .signup-form h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: bold;
+      color: #203a43;
+    }
+
+    .social-btns button {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 50px;
+    }
+
+    .signin-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .carousel img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Tablet adjustments */
+    @media (max-width: 991px) {
+      body {
+        padding: 20px;
+        height: auto;
+      }
+      .signup-container {
+        margin-top: 30px;
+      }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 767px) {
+      .carousel {
+        display: none; /* Hide carousel on mobile */
+      }
+      .signup-form {
+        padding: 25px;
+      }
+    }
+    /* glass effect */
+    .glass-effect {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.20);
+    /* Fallback for browsers that don't support backdrop-filter */
+    @supports not (backdrop-filter: blur(1px)) {
+        background: rgba(255, 255, 255, 0.08);
+    }
+}

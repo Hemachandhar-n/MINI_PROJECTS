@@ -1,0 +1,84 @@
+ body {
+      background-image: url("/Login/image/dark-background-abstract-background-network-3d-background-7680x4320-8324.png");
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .login-container {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      overflow: hidden;
+      max-width: 950px;
+      width: 100%;
+    }
+
+    .login-form {
+      padding: 40px;
+    }
+
+    .login-form h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: bold;
+    }
+
+    .social-btns button {
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 50px;
+    }
+
+    .signup-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+
+    .carousel img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Tablet adjustments */
+    @media (max-width: 991px) {
+      body {
+        padding: 20px;
+        height: auto;
+      }
+      .login-container {
+        margin-top: 30px;
+      }
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 767px) {
+      .carousel {
+        display: none; /* Hide carousel on mobile */
+      }
+      body {
+        background: linear-gradient(135deg, #e3f2fd, #f8f9fa);
+        height: auto;
+        padding: 15px;
+      }
+      .login-form {
+        padding: 25px;
+      }
+    }
+
+    .glass-effect {
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2),
+                inset 0 0 0 1px rgba(255, 255, 255, 0.20);
+    /* Fallback for browsers that don't support backdrop-filter */
+    @supports not (backdrop-filter: blur(1px)) {
+        background: rgba(255, 255, 255, 0.08);
+    }
+}

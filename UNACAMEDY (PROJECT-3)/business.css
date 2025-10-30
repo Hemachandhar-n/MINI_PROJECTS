@@ -1,0 +1,336 @@
+/* ///////////////////////////////////// */
+
+/* //////////////////////////////////// */
+.topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: #eee;
+}
+.logo {
+  font-size: 24px;
+  font-family: "TikTok Sans", sans-serif;
+  font-weight: bolder;
+  color: black;
+}
+.subh {
+  font-size: 15px;
+  font-family: "Sora", sans-serif;
+  color: purple;
+  text-indent: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-bar {
+  border: 1px black solid;
+  margin-left: 20px;
+  border-radius: 15px;
+  padding: 5px;
+}
+.topnav .search-bar {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+.search-bar input {
+  width: 95%;
+  padding: 5px 3px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+}
+.topnav .navlink {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 20px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.navlink a {
+  text-decoration: none;
+  color: #444;
+  font-size: 16px;
+}
+.navlink a:hover {
+  color: red;
+}
+
+.button i {
+  font-size: 20px;
+  gap: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #555;
+}
+
+.button i:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 786px) {
+  .topnav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .topnav .search-bar {
+    order: 3;
+    width: 90%;
+    margin: 10px 0;
+  }
+  .navlink {
+    order: 2;
+  }
+  .button {
+    order: 4;
+    margin-top: 10px;
+  }
+}
+/* /////////////////////////////////// */
+
+/* h1 quotes */
+
+.kick {
+  font-size: 25px;
+  margin-left: 15px;
+  padding-left: 150px;
+  padding-top: 100px;
+  font-family: "TikTok Sans", sans-serif;
+}
+
+/* small image */
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  font-family: "Nunito", sans-serif;
+
+}
+
+.card {
+  position: relative;
+  width: 250px;
+  height: 360px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px gray;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.4s ease;
+}
+
+.card .hover-img {
+  opacity: 0;
+}
+
+.card:hover .hover-img {
+  opacity: 1;
+}
+
+.card:hover .main-img {
+  opacity: 0;
+}
+
+.card-label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  background-color: white;
+  padding: 4px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  padding: 16px;
+}
+
+.card-content h3 {
+  margin: 0 0 8px;
+  font-size: 18px;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+/* //////////////////////////////////// */
+/* course card */
+.h2{
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+}
+.h3{
+  font-family: "Sansation", sans-serif;
+  font-weight: 400;
+}
+.image-section {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+}
+
+.image2 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.img1 {
+  width: 10;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  font-family: "Arsenal SC", sans-serif;
+}
+
+.img1:hover {
+  transform: translateY( 5px);
+}
+
+.img1 img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.img1 h3 {
+  font-size: 16px;
+  margin: 10px 0 5px;
+}
+
+.img1 .author {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 1px;
+}
+
+.img1 .rating {
+  font-size: 14px;
+  color: #ff9529;
+  margin-bottom: 1px;
+}
+
+.img1 .price {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.img1 .original-price {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: #999;
+  margin-left: 6px;
+}
+
+/* //////////////////////////////// */
+
+
+
+/* //////////////////////////////// */
+/* footer section */
+
+.site-footer {
+ background-color: #000000; /* Black background */
+    color: #ffffff; /* White text */
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.footer-container {
+    margin: auto;
+    padding: 0 60px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.footer-links ul li a:hover {
+    color: #bbb;
+}
+
+.footer-bottom {
+    font-family: "TikTok Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+@media (max-width: 786px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
