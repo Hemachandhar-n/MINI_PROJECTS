@@ -19,6 +19,10 @@ It demonstrates responsive layout design and Bootstrap components for product li
 
 **🖥️ Output:**  
 
+
+https://github.com/user-attachments/assets/6afeb1ce-dc29-4452-8bb4-e6c790050f4a
+
+
 <br><br>
 
 ---
