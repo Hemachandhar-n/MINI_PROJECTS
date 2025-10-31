@@ -1,0 +1,65 @@
+{
+  "pc":[
+  {
+    "id": 1,
+    "title": "Monster PC 5",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2024/07/Phanteks-NV5-MKII-E-Atx-Mid-Tower-Tempered-Glass-Cabinet-Black-1.webp"
+  },
+  {
+    "id": 2,
+    "title": "Monster PC 4",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2024/07/Asus-Tuf-Gaming-GT502-Atx-Mid-Tower-Cabinet-Black-1-1.webp"
+  },
+  {
+    "id": 3,
+    "title": "Matrix PC 3",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2024/07/Antec-Flux-Pro-E-ATX-Full-Tower-Cabinet-1-600x600.webp"
+  },
+   {
+    "id": 4,
+    "title": "Matrix PC 2",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2024/07/Gigabyte-C500-Panoramic-Stealth-Ice-Mid-Tower-ATX-Cabinet-1-600x600.webp"
+  },
+   {
+    "id": 5,
+    "title": "Matrix Pc 1",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2025/01/Ant-Esports-Crystal-X6-ATX-Mid-Tower-Cabinet-With-Type-C-White-1-1-600x600.webp"
+  },
+   {
+    "id": 6,
+    "title": "Titanium PC 2",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2023/10/Phanteks-Magnum-Gear-Neo-Air-2-E-Atx-Mid-Tower-Cabinet-White-1-1.webp"
+  },
+   {
+    "id": 7,
+    "title": "Titanium PC 1",
+    "desc": "Some quick Monsterexample text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2023/08/HYTE-Y70-Touch-Infinite-Dual-Chamber-Atx-Mid-Tower-Cabinet-Black-1-1.webp"
+  },
+   {
+    "id": 8,
+    "title": "Gaming Pc 2",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2025/01/Gigabyte-C301-Glass-V2-Atx-Mid-Tower-Cabinet-1-1-600x600.webp"
+  },
+   {
+    "id": 9,
+    "title": "Asus PN41 Barbone Mini Pc",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2025/01/Asus-PN41-Barbone-Mini-Pc-1-1.webp"
+  },
+   {
+    "id": 10,
+    "title": "Gaming Pc 1",
+    "desc": "Some quick example text to build on the card title and make up the bulk of the card’s content.",
+    "img": "https://www.pcstudio.in/wp-content/uploads/2025/01/ph-xt523v1-dwt01-image-main-600x600-1-1.webp"
+  }
+ 
+]
+}
