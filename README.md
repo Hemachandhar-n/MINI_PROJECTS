@@ -40,6 +40,10 @@ This project focuses on CSS structure and static responsive design.
 
 **🖥️ Output:**  
 
+
+https://github.com/user-attachments/assets/2f10bc7a-507b-46e7-9af5-0bb7d013f689
+
+
 <br><br>
 
 ---
@@ -57,6 +61,10 @@ A simple **e-commerce front-end design** inspired by Flipkart, featuring a clean
 
 **🖥️ Output:**  
 
+
+https://github.com/user-attachments/assets/0290c56e-cdaf-44c8-a273-042c9ec66c1b
+
+
 <br><br>
 
 ---
@@ -72,6 +80,10 @@ A website layout inspired by the **Udemy platform**, showcasing online courses, 
 - CSS3  
 
 **🖥️ Output:**  
+
+
+https://github.com/user-attachments/assets/ce9af478-448e-4b33-84a7-15a9be64ccb1
+
 
 <br><br>
 
